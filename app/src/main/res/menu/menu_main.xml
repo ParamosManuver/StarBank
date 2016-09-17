@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.atlantis.starbank.MainActivity">
+    <item
+        android:id="@+id/menu_locations"
+        android:orderInCategory="104"
+        android:title="Branches"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_home"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        android:title="Home"/>
+    <item
+        android:id="@+id/menu_about"
+        android:orderInCategory="101"
+        app:showAsAction="never"
+        android:title="About"/>
+    <item
+        android:id="@+id/menu_login"
+        android:orderInCategory="102"
+        app:showAsAction="ifRoom"
+        android:title="Login"/>
+    <item
+        android:id="@+id/menu_exit"
+        android:orderInCategory="103"
+        app:showAsAction="never"
+        android:title="Exit"/>
+</menu>
+
